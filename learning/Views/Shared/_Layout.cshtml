@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    
+    <div id="wrapper">
+        <header>
+            <i class="icon"></i>
+            <span class="logo">ShizenShop</span>
+            <nav>
+                <a href="/">Главная</a>
+                <a href="/contacts">Обратная связь</a>
+            </nav>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        <footer>Все права защищены</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+background{
+    color: #666666
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333
+}
+
+p {
+    padding: 10px;
+}
+
+wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    float: right;
+    height: 50px;
+    width: 1536px;
+    background: #666666;
+}
+header .logo {
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 24px;
+}
+
+content {
+    
+    float: left;
+    background: silver;
+    width: 1000px;
+}
+
+footer {
+    margin-top: 591px;
+    height: 40px;
+    width: 1536px;
+    background: #666666;
+    clear: both;
+}
+icon{
+
+}
